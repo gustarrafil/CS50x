@@ -1,0 +1,28 @@
+CS50x Harvard
+	week 0
+		at least 2 sprites, 1 being other than a cat
+		3 scripts total
+		1 condition, 1 loop, 1 variable
+		1 sound
+			
+		3 fileras de bolinha em cima, o canhao se movimenta com setas do teclado e lança um bola com barra de espaço. quando a bola lançada toca outra, some
+
+		se a bola de canhao nao ta na tela
+			o canhao aparece
+			usuario controla angulo de lançamento pelo teclado direita e esquerda
+			barra de espaço pra atirar bola de canhao
+
+		se a bola de canhao ta na tela
+			canhao desaparece
+			aparece barreira que movimenta na horizontal com controle do usuario direita e esquerda
+
+		bola de canhao é atirada
+		se encostar em alguma outra bola, a outra bola desaparece
+	week 1
+	week 2
+	week 3
+	week 4
+	week 5
+	week 6
+	week 7
+	week 8

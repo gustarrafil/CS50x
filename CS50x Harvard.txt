@@ -19,6 +19,41 @@ CS50x Harvard
 		bola de canhao é atirada
 		se encostar em alguma outra bola, a outra bola desaparece
 	week 1
+		#include <cs50.h>
+		#include <stdio.h>
+
+		//user decides how tall it is, entering somethings 1 <= 8
+		//gap equals to ##
+
+		int main()
+		{
+		  int linha, coluna, numero=4;
+
+		do
+	    {
+	        n = get_int("size: ");
+	    }
+	    while (n < 1);
+
+		  for (linha = 1; linha <= numero; linha++)  // Loop to print rows
+		  {
+		    for (coluna = 1; coluna <= numero-linha; coluna++)  // Loop to print spaces in a row
+		      printf(".");
+
+		    for (coluna = 1; coluna <= linha; coluna++) // Loop to print stars in a row
+		      printf("#");
+
+		    printf("..");
+
+		    for (coluna = 1; coluna <= linha; coluna++) // Loop to print stars in a row
+		      printf("#");
+
+		    printf("\n");
+		  }
+
+		  return 0;
+		}
+		
 	week 2
 	week 3
 	week 4
